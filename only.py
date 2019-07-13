@@ -25,6 +25,7 @@
 #
 
 import xlrd as xl
+import xlwt as wt
 
 reader = xl.open_workbook("C:\\Users\\hp\\Desktop\\Book2.xls")
 sheetno = reader.sheet_by_index(0)
@@ -37,3 +38,5 @@ for i in range(0,sheetno.nrows):
     list.append(sheetno.cell_value(i,0))
 
 print(len(list))
+
+writer = wt.Workbook("C:\\Users\\hp\\Desktop\\Book2.xls")
