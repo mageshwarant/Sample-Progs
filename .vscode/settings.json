@@ -1,3 +1,13 @@
 {
-    "python.pythonPath": "C:\\Users\\hp\\Anaconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\hp\\Anaconda3\\python.exe",
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./exercises",
+        "-p",
+        "test*.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true
 }

@@ -6,7 +6,7 @@ import datetime
 import gzip
 print datetime.datetime.now()
 f_in = open('C:\\Users\\hp\\Desktop\\zips.csv', 'rb')
-f_out = gzip.open('C:\\Users\\hp\Desktop\\test\\zips.gz', 'wb')
+f_out = gzip.open('C:\\Users\\hp\\Desktop\\test\\zips.gz', 'wb')
 f_out.writelines(f_in)
 f_out.close()
 f_in.close()
